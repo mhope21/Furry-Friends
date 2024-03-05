@@ -6,15 +6,19 @@ body {
 }
 
 #title-container {
+    background-color: #f1e2c2;
     text-align: center;
-    margin-top: 20px;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 h1 {
     font-size: 100px;
     color: rgb(121, 92, 55);
     text-shadow: 2px 2px #333;
-    margin-bottom: 40px;
+    margin: 40px;
 }
 
 #breed-title {
@@ -33,7 +37,7 @@ h1 {
 }
 
 #return-button {
-    background-color: #4CAF50;
+    background-color: rgb(117, 82, 35);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -47,11 +51,11 @@ h1 {
   }
   
   #return-button:hover {
-    background-color: #45a049;
+    background-color: rgb(177, 128, 63);
   }
   
   #return-button:active {
-    background-color: #3e8e41;
+    background-color: #8e7f3e;
   }
   
 
@@ -85,9 +89,37 @@ h2 {
     background-color: #f9f9f9;
     outline: none;
     cursor: pointer;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+
 }
 
 #breed-selector option {
     font-size: 16px;
+}
+
+.contact-info {
+    background-color: #f1e2c2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 5px;
+    color: #333;
 }
